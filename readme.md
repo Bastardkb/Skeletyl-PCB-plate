@@ -2,7 +2,7 @@
 
 ![pic](pics/pcb.jpg)
 
-Flexible PCB made for the TBK Mini.
+Flexible PCB made for the Skeletyl.
 
 With per-key RGB.
 
