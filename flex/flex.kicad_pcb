@@ -101,6 +101,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -222,7 +223,7 @@
 		(path "/a204d26e-1238-4182-a53a-0af5ebce2fda")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -458,7 +459,7 @@
 		(path "/d984118f-cdc5-4eb0-9efd-069c687bee17")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -1535,7 +1536,7 @@
 		(path "/06dde681-9c71-47d4-8096-a144318a1203")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -1783,7 +1784,7 @@
 		(path "/8575ca0b-a7b4-4fe6-b2e6-6259a3a16356")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -1892,7 +1893,7 @@
 		(path "/7d278210-7e7d-4ebf-96be-414b4d8d521a")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -2329,7 +2330,7 @@
 		(path "/1fe927c9-8ee2-404a-9063-f2b19306195d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -2509,7 +2510,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "23e62086-4310-4d2b-abe5-c5290e9be821")
-		(at 109.075 166.73)
+		(at 70.2675 72.7)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J65"
@@ -2565,7 +2566,7 @@
 		(path "/091bed15-9e56-4f7d-bd1f-3d80d9b3c9e5")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -2745,7 +2746,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "24c98921-78cc-4bd9-a013-525a9ea5ad97")
-		(at 113.605 164.36)
+		(at 83.6 82.1)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J70"
@@ -2801,7 +2802,7 @@
 		(path "/207aa638-976b-4c2e-9723-b18f5d24492e")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -3037,7 +3038,7 @@
 		(path "/c3aab07b-61eb-4467-ba7e-db3e9c751104")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -3273,7 +3274,7 @@
 		(path "/5b2d29c7-0f03-4388-9e40-32cdfdc52c1d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -4087,7 +4088,7 @@
 		(path "/bcf9220f-7023-4e97-9656-5de4b3d96261")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -4240,6 +4241,192 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "b4f807a7-7f81-4f30-a3c0-01fe8da1d7f4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical"
+		(layer "F.Cu")
+		(uuid "2a3f3a85-04ca-4687-bd45-29cf8512d828")
+		(at 41.1 87.14)
+		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.27mm single row")
+		(property "Reference" "J123"
+			(at -3.1 -3.45 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a48f5115-bde9-438b-9124-0731029aabf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1.695 0)
+			(layer "F.Fab")
+			(uuid "2658a653-4670-4256-8178-e8fdfe6cc972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d894f346-76b9-40ed-aa2c-9f0e4981caa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dd9e320-10d5-4049-bb2d-35151da03476")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/c6175af1-cf73-4dce-9648-2936d29be0b2")
+		(sheetname "/")
+		(sheetfile "flex.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -0.65 -0.65)
+			(end -0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "80ba29e8-9962-42bc-b981-1621bfe06505")
+		)
+		(fp_line
+			(start -0.65 0.65)
+			(end 0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bbb3dcf5-e079-4138-9bf9-773df950a54f")
+		)
+		(fp_line
+			(start 0.65 -0.65)
+			(end -0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b268275-53d9-461f-accb-5d3dc241879b")
+		)
+		(fp_line
+			(start 0.65 0.65)
+			(end 0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ea14aa5-00d0-47f4-a5bd-fee29410c0e8")
+		)
+		(fp_line
+			(start -1.05 -0.11)
+			(end -0.525 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25792290-af02-46eb-90d6-77a0e6149264")
+		)
+		(fp_line
+			(start -1.05 0.635)
+			(end -1.05 -0.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "792fa80d-67fe-4bf0-a091-967cc9e4a259")
+		)
+		(fp_line
+			(start -0.525 -0.635)
+			(end 1.05 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "982b8093-063d-4867-ae8c-65bcc1d51833")
+		)
+		(fp_line
+			(start 1.05 -0.635)
+			(end 1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "684a1032-cd53-491c-88a3-5113d38d5f00")
+		)
+		(fp_line
+			(start 1.05 0.635)
+			(end -1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9225fbf7-d87f-4e06-aa7c-233e107f13e7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "b4b2c858-ce56-43c3-9a53-6a7581c54319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "col3")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "d721b5a8-a000-4ef3-86b3-38ca865e5011")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
@@ -4530,7 +4717,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "300c1943-4669-4fa8-89ef-bf934cc07d35")
-		(at 109.74 164.36)
+		(at 60.2 95.6)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J64"
@@ -4586,7 +4773,7 @@
 		(path "/2a2e3c8b-c7ed-4401-9405-609e262f665c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -5038,7 +5225,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "35015d3a-472f-437b-98a6-fd05bac8ac60")
-		(at 109.075 157.25)
+		(at 70.3675 118.5)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J61"
@@ -5094,7 +5281,7 @@
 		(path "/577df9dc-47df-47eb-9801-5c390a08bebe")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -5256,6 +5443,192 @@
 			(members "668356fa-35dd-4c6b-8f7f-95324d290d22" "7e1828d5-2d65-4501-b471-c4b3b66c932c"
 				"9f8b4fe1-a5c4-451d-904d-bf09aadc4d55" "a14ed281-2656-42f1-b1d1-d4e962cb00ba"
 			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical"
+		(layer "F.Cu")
+		(uuid "393da6b2-37e6-461c-9e04-3948b111f7df")
+		(at 41.1 94.25)
+		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.27mm single row")
+		(property "Reference" "J126"
+			(at -3.1 -3.45 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a696a4db-ce0a-431b-8c4f-ef8f402c5eb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1.695 0)
+			(layer "F.Fab")
+			(uuid "7083bb51-f95e-49a4-a07c-f8daac08bdbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d690600-8a19-411a-8e58-637711e8b1cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d48c00-b7ea-4720-8042-c714e2027609")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ec0fd2aa-caba-4d5d-b855-4607e8ddaf19")
+		(sheetname "/")
+		(sheetfile "flex.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -0.65 -0.65)
+			(end -0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d4541b1e-2e24-440b-a466-cd99e4605957")
+		)
+		(fp_line
+			(start -0.65 0.65)
+			(end 0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dfb326c6-2163-48ee-8721-bb418342eb44")
+		)
+		(fp_line
+			(start 0.65 -0.65)
+			(end -0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "636ef5a2-0152-41cf-87c1-a8d43272051b")
+		)
+		(fp_line
+			(start 0.65 0.65)
+			(end 0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a50693be-80c5-4834-81fe-bdc097c280c4")
+		)
+		(fp_line
+			(start -1.05 -0.11)
+			(end -0.525 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "650f6591-086b-468c-a29a-49de0e6f0720")
+		)
+		(fp_line
+			(start -1.05 0.635)
+			(end -1.05 -0.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d35e270c-0d7f-450c-8c75-4ba7cc85015d")
+		)
+		(fp_line
+			(start -0.525 -0.635)
+			(end 1.05 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "33751ebe-26c4-4d27-9a2b-6f2a96944fe0")
+		)
+		(fp_line
+			(start 1.05 -0.635)
+			(end 1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4c7243c-a438-45ab-aaae-d96895fae077")
+		)
+		(fp_line
+			(start 1.05 0.635)
+			(end -1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "810066ad-6efa-4e8c-b969-1d7bc982dfba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "61381d16-fa5c-48dd-9041-04c8d7cef904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "col6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "2bc8ba79-400c-4ca7-af56-4542757c5612")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
@@ -5577,6 +5950,192 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical"
+		(layer "F.Cu")
+		(uuid "3aa9f2d3-e88f-425d-af32-7a67d968c8c9")
+		(at 41.1 89.51)
+		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.27mm single row")
+		(property "Reference" "J124"
+			(at -3.1 -3.45 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8738460a-f068-457e-9505-77b5504eb21e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1.695 0)
+			(layer "F.Fab")
+			(uuid "bff8c656-2be4-404a-854f-c948899730da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c94beba1-fdd9-441f-a665-dda59a6e7e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db85ca99-c553-4bf5-9944-f45426ec81a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/543e0f9f-9bf1-43cd-8ab5-1ed75f0c680e")
+		(sheetname "/")
+		(sheetfile "flex.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -0.65 -0.65)
+			(end -0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d57a1157-8337-4eb7-b8be-f756f23e1ffa")
+		)
+		(fp_line
+			(start -0.65 0.65)
+			(end 0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0dfbc26d-4ba4-4da6-96f3-687055ad1b2d")
+		)
+		(fp_line
+			(start 0.65 -0.65)
+			(end -0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b1af7dfb-f3bc-46be-bb8f-c59956511c85")
+		)
+		(fp_line
+			(start 0.65 0.65)
+			(end 0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "82d59734-9323-4665-919e-770387c573df")
+		)
+		(fp_line
+			(start -1.05 -0.11)
+			(end -0.525 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d08753cf-7e8a-4abe-91e1-f1622fe9f75a")
+		)
+		(fp_line
+			(start -1.05 0.635)
+			(end -1.05 -0.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "57aae841-6189-4f58-a54e-e1a181c7a40c")
+		)
+		(fp_line
+			(start -0.525 -0.635)
+			(end 1.05 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37217779-7943-4ca6-b1d3-accc222b4155")
+		)
+		(fp_line
+			(start 1.05 -0.635)
+			(end 1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eed18b3f-cab1-461b-87b8-55c9e9b5219a")
+		)
+		(fp_line
+			(start 1.05 0.635)
+			(end -1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fdd681a-3a85-4591-aaef-248c0372aab1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "9c7f04f9-34c1-4219-b9ba-08cbc986bbfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "col4")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "b86f0b2d-f76b-4a6b-b863-ef2a6112ad08")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_VCC"
 		(layer "F.Cu")
 		(uuid "3e42ed76-6aaa-4372-901c-7fcf5c5cf5c1")
@@ -5636,7 +6195,7 @@
 		(path "/7da0c212-92d1-4865-92df-19ea7976f50d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -7157,7 +7716,7 @@
 		(path "/4dd4104b-e062-4dc6-904c-d15ab1abd91d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -7599,7 +8158,7 @@
 		(path "/2eaa3972-b923-44da-891b-672de2aebe82")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -7830,7 +8389,7 @@
 		(path "/44a16ca0-8564-4642-aafd-1661df9f060d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -8311,7 +8870,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "4e05cdb7-b624-4160-994c-258d9c3c7f89")
-		(at 112.94 166.73)
+		(at 83.7 104.5)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J71"
@@ -8367,7 +8926,7 @@
 		(path "/bcbc9c04-d12a-464a-8da2-24b5a646fbf0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -8603,7 +9162,7 @@
 		(path "/fdd134f8-09e6-40d5-af8d-bcbcdee03db5")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -9046,7 +9605,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "56c54564-150d-45df-9a66-2ad5bea48713")
-		(at 109.74 169.1)
+		(at 60.1 72.6)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J66"
@@ -9102,7 +9661,7 @@
 		(path "/2108cd8e-e48b-4704-a0cc-170ec6022c21")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -9350,7 +9909,7 @@
 		(path "/68e6718d-f57f-4953-b95c-627ec40d659c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -9459,7 +10018,7 @@
 		(path "/344a4672-3b19-416b-98f2-1bdce590817d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -10812,7 +11371,7 @@
 		(path "/14c1b770-c263-4e11-9a72-952b67374c55")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -11039,7 +11598,7 @@
 		(path "/e7974f85-4a13-42ab-a913-bf831c790f33")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -11759,7 +12318,7 @@
 		(path "/d3f06396-352a-4ce1-bb2e-6813e8e78974")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -11990,7 +12549,7 @@
 		(path "/b67b12f3-a5e9-49d7-a5ee-b852a8a08f70")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -12217,7 +12776,7 @@
 		(path "/caf6049f-29a0-4693-aeb3-d1a4f8dcdd8a")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -12720,7 +13279,7 @@
 		(path "/0b0a8669-f3df-42cc-8da9-70843308f9b9")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -13265,7 +13824,7 @@
 		(path "/dc64826e-1c9c-41cd-ba14-731e3bc2581c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -13374,7 +13933,7 @@
 		(path "/0395da21-7a9d-4ada-98d3-246281c311cd")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -13601,7 +14160,7 @@
 		(path "/b4eff58f-3232-4f6e-ac16-68d9de7485fc")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -13781,7 +14340,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "83e1ae69-ce6a-4fe9-aeec-f2d90ab2132b")
-		(at 117.47 159.62)
+		(at 104.4 103.2)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J74"
@@ -13837,7 +14396,7 @@
 		(path "/43456961-b5a4-4e34-93ac-9af9a825aa93")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -14085,7 +14644,7 @@
 		(path "/e4e29c13-5a01-4825-9ffc-0e8e99f984a6")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -14206,7 +14765,7 @@
 		(path "/1a1c5892-72b9-47f9-b045-913af4da41c9")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -14259,7 +14818,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "86ef3596-1083-4f89-a599-8895ab53b21e")
-		(at 113.605 159.62)
+		(at 82 60.7)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J68"
@@ -14315,7 +14874,7 @@
 		(path "/39f61bdd-8f8c-454e-b870-d41e88209924")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -14563,7 +15122,7 @@
 		(path "/b3ddc4a8-34d6-47f2-8cbc-2c680c510b9e")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -14978,7 +15537,7 @@
 		(path "/3476f6e2-80b0-4dab-8c01-dd71e3c56578")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -15149,7 +15708,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "90bfee57-226b-4b29-a53a-77b86be4472d")
-		(at 109.74 159.62)
+		(at 62.2 116.7)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J62"
@@ -15205,7 +15764,7 @@
 		(path "/b2fe7003-3618-47d5-a125-e2d26a5ff23b")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -16065,7 +16624,7 @@
 		(path "/c1427591-98da-4931-8696-c59dd97eb8be")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -16174,7 +16733,7 @@
 		(path "/5dd9900a-dce3-4db5-892a-864e79909678")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -16401,7 +16960,7 @@
 		(path "/d7e36a80-4b66-4308-ab71-769407c6ccbc")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -16637,7 +17196,7 @@
 		(path "/7382e656-655b-42c5-9550-56d48aeb71bf")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -16817,7 +17376,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "a66af8c1-ffd7-4a30-a0bf-a1c989fc5128")
-		(at 112.94 157.25)
+		(at 92.2675 60.63)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J67"
@@ -16873,7 +17432,7 @@
 		(path "/e098c430-2663-4a47-a3e9-5d5cd93304b6")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -17109,7 +17668,7 @@
 		(path "/1cad44cb-909c-4132-b9e5-663b3c099177")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -17340,7 +17899,7 @@
 		(path "/104e3eb0-9efb-48ff-a424-85bf9b8cdb04")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -17567,7 +18126,7 @@
 		(path "/bf75343b-5f84-4188-b30c-57f3fafbb885")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -17803,7 +18362,7 @@
 		(path "/96f10c3e-be24-489b-b2a5-e8e47372da03")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -17974,7 +18533,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "b33b2811-a28d-4a7c-b06c-31bebc5c63ee")
-		(at 116.805 157.25)
+		(at 114.2675 104.23)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J73"
@@ -18030,7 +18589,7 @@
 		(path "/45dda0fa-242e-4d5d-bb43-250cbdd13d5c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -18266,7 +18825,7 @@
 		(path "/242fa583-5218-44d0-9c21-ae185d0893e7")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -18502,7 +19061,7 @@
 		(path "/0c47d408-6ba3-43dd-82bc-8998b2cef5a0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -18745,7 +19304,7 @@
 		(path "/19854fb4-c5c9-4bdc-a272-2d48b4dbd52d")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -18798,7 +19357,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_OUT"
 		(layer "F.Cu")
 		(uuid "bc932158-cd29-43fd-a7ba-cb48cfb1792a")
-		(at 113.605 169.1)
+		(at 93.1325 106.57)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J72"
@@ -18854,7 +19413,7 @@
 		(path "/53cc3c3a-e132-4321-a14c-e6236d80b997")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -19090,7 +19649,7 @@
 		(path "/2383af79-71a9-4228-a416-69a324bba620")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -19593,7 +20152,7 @@
 		(path "/7dd9e78b-0d2f-4535-8119-fdbc80c5a260")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -24204,7 +24763,7 @@
 		(path "/d83e105d-760f-42dc-a7b1-829fa852a7d6")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -24440,7 +24999,7 @@
 		(path "/a28af56f-8958-4afd-b222-42d3aba073c0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -24667,7 +25226,7 @@
 		(path "/f2b93941-98b8-432a-9069-37c70dc64e08")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -25484,7 +26043,7 @@
 		(path "/8565299f-40df-4893-989f-7702ca091106")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -25593,7 +26152,7 @@
 		(path "/a888b44e-3061-4ea5-a01d-ac3c51bc141c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -25829,7 +26388,7 @@
 		(path "/85a10743-6117-4557-8cbf-18d4d77d4efb")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -26537,7 +27096,7 @@
 		(path "/f190dd33-b324-42cd-83a0-838fea4ec298")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -26773,7 +27332,7 @@
 		(path "/130a03e3-df30-46f5-bddc-6d519490b8f7")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.695 0)
 			(end -1.705 0)
@@ -27021,7 +27580,7 @@
 		(path "/fb0972d8-1f24-4c0f-9505-77967a22c13b")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -27074,7 +27633,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "e0abf6e3-563f-4b49-bc27-347ebc5d5c60")
-		(at 109.075 161.99)
+		(at 70.2675 95.5)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J63"
@@ -27130,7 +27689,7 @@
 		(path "/b38f43ec-5c06-4831-9c09-87ba5154796b")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -27378,7 +27937,7 @@
 		(path "/f6349abc-4edd-48fd-a9d4-0c7b6c760936")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -27427,6 +27986,192 @@
 			(uuid "b41da70b-5199-4153-bf7f-4a555e76609f")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical"
+		(layer "F.Cu")
+		(uuid "e38cf22e-c3f9-4a4c-a75e-3ef22bb7f016")
+		(at 41.1 84.77)
+		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.27mm single row")
+		(property "Reference" "J122"
+			(at -3.1 -3.45 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32b61005-dd94-4044-a264-13a377300a6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1.695 0)
+			(layer "F.Fab")
+			(uuid "7653206e-4c48-43a6-b2be-95f54c913335")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d536c93-4bbb-4689-8b8e-144fc675666a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2425271b-fcd6-4d1e-a633-f5bf3d8eae57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/cd7772ae-32ec-4935-ae76-15fa552fa212")
+		(sheetname "/")
+		(sheetfile "flex.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -0.65 -0.65)
+			(end -0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7307befc-bdb5-44a1-9466-61e8219057d1")
+		)
+		(fp_line
+			(start -0.65 0.65)
+			(end 0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78c73b34-51ac-40b2-bb14-fe768b546e1c")
+		)
+		(fp_line
+			(start 0.65 -0.65)
+			(end -0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31e71ead-bddf-4beb-a9f0-7f40e3ea66dc")
+		)
+		(fp_line
+			(start 0.65 0.65)
+			(end 0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7fb8666-5991-42ee-b5fa-568c6ab776cc")
+		)
+		(fp_line
+			(start -1.05 -0.11)
+			(end -0.525 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e4f3cffa-ce9c-4458-b160-4f7a64bbdcbd")
+		)
+		(fp_line
+			(start -1.05 0.635)
+			(end -1.05 -0.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb7f517b-c981-4556-81be-8f203f9bf221")
+		)
+		(fp_line
+			(start -0.525 -0.635)
+			(end 1.05 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22621a77-f215-4071-99ad-e0a5812fbe6d")
+		)
+		(fp_line
+			(start 1.05 -0.635)
+			(end 1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8f0ce6c5-4508-4333-b62f-e2acc7eecff4")
+		)
+		(fp_line
+			(start 1.05 0.635)
+			(end -1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "31c6558e-7872-4e7f-89ed-902137bb2f5a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "ccb6172e-5a4a-40e4-a8f1-3344f6fb0f5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "col2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "0e6e672e-5740-4f14-8384-544aa3b55aac")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_GND"
 		(layer "F.Cu")
@@ -27487,7 +28232,7 @@
 		(path "/c730fe0d-06f7-438e-bbca-e9216e720a82")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -27714,7 +28459,7 @@
 		(path "/a580f68f-3378-4a87-bee9-a13ab4b86830")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -27941,7 +28686,7 @@
 		(path "/ec826025-542b-46cc-ba5d-a9d4e42526b6")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -28444,7 +29189,7 @@
 		(path "/0b0ce0cd-a788-47a6-baff-b48bfc566a0a")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -28993,7 +29738,7 @@
 		(path "/6b380582-b646-4ad8-84fa-1244b6786418")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
@@ -29563,7 +30308,7 @@
 	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical_IN"
 		(layer "F.Cu")
 		(uuid "f6924b31-42dc-49dd-b798-eedd204c13bc")
-		(at 112.94 161.99)
+		(at 92.4675 83.7)
 		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.27mm single row")
 		(property "Reference" "J69"
@@ -29619,7 +30364,7 @@
 		(path "/457e7e23-d628-4248-8030-9ebff1099c8e")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.69662 -0.003232)
 			(end 0.68662 -0.003232)
@@ -30161,7 +30906,7 @@
 		(path "/2da0051a-5927-479a-8a3b-203b3264cdb4")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.65 -0.65)
 			(end -0.65 0.65)
@@ -30318,6 +31063,192 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "2aaec999-b862-4961-9b6e-26b89fd1f261")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "custom:PinHeader_1x01_P1.27mm_Vertical"
+		(layer "F.Cu")
+		(uuid "ff7b39da-a09c-4f7a-bc73-cbe17d3d2365")
+		(at 41.1 91.88)
+		(descr "Through hole straight pin header, 1x01, 1.27mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.27mm single row")
+		(property "Reference" "J125"
+			(at -3.1 -3.45 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e719c876-4169-4e04-ba80-f82408da914b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1.695 0)
+			(layer "F.Fab")
+			(uuid "3ae2f02b-eef0-43e9-a3c6-44dbf1e80845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b101d14a-0493-4251-929f-ddefd57fcd95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c96370d5-15e1-4d20-8fdf-2c1c147658d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/bef18d41-0c65-49a7-8678-2cc6999ccba6")
+		(sheetname "/")
+		(sheetfile "flex.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -0.65 -0.65)
+			(end -0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "19d59be9-1b79-4d59-9886-cdfce966d1ea")
+		)
+		(fp_line
+			(start -0.65 0.65)
+			(end 0.65 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ade442fa-127a-4206-af2e-6c35b26b2c42")
+		)
+		(fp_line
+			(start 0.65 -0.65)
+			(end -0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "890ba1ee-27d4-4ab5-a0e8-b468d7ab5409")
+		)
+		(fp_line
+			(start 0.65 0.65)
+			(end 0.65 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd638f97-06ef-47f2-83ad-44f87eb463ff")
+		)
+		(fp_line
+			(start -1.05 -0.11)
+			(end -0.525 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "08119cde-afb3-4cb0-aa48-b3aad63d8841")
+		)
+		(fp_line
+			(start -1.05 0.635)
+			(end -1.05 -0.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca674da0-e719-4a17-bfab-b555b8a135a0")
+		)
+		(fp_line
+			(start -0.525 -0.635)
+			(end 1.05 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91d6d441-2c99-4c29-8df1-adc2964a27d3")
+		)
+		(fp_line
+			(start 1.05 -0.635)
+			(end 1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c4c1911-6bf9-4936-b799-39a368a6a356")
+		)
+		(fp_line
+			(start 1.05 0.635)
+			(end -1.05 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e9bddef-2dd1-43da-a177-09ce8738a71c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "378019e5-b4b0-4a73-9176-e39af79096c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "col5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "83e969cd-1cf8-45d9-9c48-01016af0bf45")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
@@ -31449,7 +32380,7 @@
 		(path "/3713fe3e-e331-4621-9b0f-6808026ee7b0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -32131,7 +33062,7 @@
 		(path "/ff8eafcf-4364-43bd-85d8-5924af2562e9")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -32588,7 +33519,7 @@
 		(path "/e439da9b-9420-48ac-b4b9-ea46f7c61fb0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -33246,7 +34177,7 @@
 		(path "/d9e128de-0882-48ea-9c25-ab5d9a81641b")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -33928,7 +34859,7 @@
 		(path "/31c3b42c-8283-4ed5-89a3-cd8ae96a5a8a")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -36445,7 +37376,7 @@
 		(path "/828c5564-31b6-4fae-a800-676ca7373ad8")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -41867,7 +42798,7 @@
 		(path "/81acb494-826b-419a-abb1-ba3a10ec7bc2")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -42988,7 +43919,7 @@
 		(path "/626dff20-7553-45e8-8202-d4917b107399")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -44702,7 +45633,7 @@
 		(path "/3d13d76c-4319-410c-adc2-74fe92bf8875")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -45159,7 +46090,7 @@
 		(path "/c2cc244c-05fd-4595-bfa4-5afb84901a1c")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -45616,7 +46547,7 @@
 		(path "/98abc732-ee8d-432c-81d2-41a103949785")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -46627,7 +47558,7 @@
 		(path "/d64b2934-f457-4b93-a7f4-a560bcf0b76a")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -47309,7 +48240,7 @@
 		(path "/6fcfd338-cd7e-48f1-be66-8db432af654b")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -48043,7 +48974,7 @@
 		(path "/131335b2-03ba-4982-b9f8-e3ce6406e9b5")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
@@ -48725,7 +49656,7 @@
 		(path "/43f2a464-323d-45d4-9815-c4e913a1ecb0")
 		(sheetname "/")
 		(sheetfile "flex.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 0.08 4.55)
 			(end 1.18 4.55)
